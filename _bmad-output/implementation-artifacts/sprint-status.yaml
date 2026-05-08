@@ -1,0 +1,68 @@
+# generated: 2026-05-07T18:11:24Z
+# last_updated: 2026-05-07T18:11:24Z
+# project: kovi
+# project_key: NOKEY
+# tracking_system: file-system
+# story_location: /Users/cavitertugrulsirt/dev/bmad-recover/_bmad-output/implementation-artifacts
+
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+#
+# Epic Status Transitions:
+#   - backlog -> in-progress: Automatically when first story is created (via create-story)
+#   - in-progress -> done: Manually when all stories reach 'done' status
+#
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - ready-for-dev: Story file created in stories folder
+#   - in-progress: Developer actively working on implementation
+#   - review: Ready for code review (via Dev's code-review workflow)
+#   - done: Story completed
+#
+# Retrospective Status:
+#   - optional: Can be completed but not required
+#   - done: Retrospective has been completed
+#
+# WORKFLOW NOTES:
+# ===============
+# - Epic transitions to 'in-progress' automatically when first story is created
+# - Stories can be worked in parallel if team capacity allows
+# - Developer typically creates next story after previous one is 'done' to incorporate learnings
+# - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
+
+generated: 2026-05-07T18:11:24Z
+last_updated: 2026-05-07T18:13:23Z
+project: kovi
+project_key: NOKEY
+tracking_system: file-system
+story_location: /Users/cavitertugrulsirt/dev/bmad-recover/_bmad-output/implementation-artifacts
+
+development_status:
+  epic-1: in-progress
+  1-1-initialize-the-desktop-app-foundation: ready-for-dev
+  1-2-open-local-media-files: backlog
+  1-3-start-pause-resume-and-restart-playback: backlog
+  1-4-volume-mute-and-fullscreen-controls: backlog
+  1-5-precision-time-navigation-controls: backlog
+  1-6-offline-playback-compatibility-baseline: backlog
+  epic-1-retrospective: optional
+  epic-2: backlog
+  2-1-external-subtitle-loading-and-automatic-matching: backlog
+  2-2-embedded-subtitle-track-discovery-and-switching: backlog
+  2-3-subtitle-timing-and-font-styling-preferences: backlog
+  2-4-next-and-previous-subtitle-boundary-navigation: backlog
+  2-5-default-keyboard-shortcut-playback-controls: backlog
+  2-6-customizable-shortcut-mappings-with-conflict-detection: backlog
+  epic-2-retrospective: optional
+  epic-3: backlog
+  3-1-recent-files-tracking-and-reopen-flow: backlog
+  3-2-playlist-creation-and-item-management: backlog
+  3-3-sequential-playlist-playback: backlog
+  3-4-per-file-playback-position-memory: backlog
+  3-5-playlist-persistence-across-app-restarts: backlog
+  3-6-session-restoration-for-playback-continuity: backlog
+  epic-3-retrospective: optional
